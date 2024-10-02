@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri Light";
+    letter-spacing: 2px;
+}
+.root{
+    height: 3200px;
+    width: 1392px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.bg-pic-box{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+}
+nav{
+    height: 5rem;
+    width: inherit;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+nav .right-side{
+    display: flex;
+}
+nav p{
+    margin-inline: 22px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: normal;
+}
+.bg-pic-box .logo{
+    text-align: center;
+}
+.bg-pic-box .logo img{
+    width: 20%;
+    margin-top: 80px ;
+}
+.bg-pic-box .text{
+    width: 45%;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom:20px;
+    margin-left: 27%;
+    color: #f3f3f3;
+}
+.inp input{
+    height: 50px;
+    width: 700px;
+    margin-left: 25%;
+    border-radius: 50em;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.middle-part{
+    margin: 0 60px;
+}
+.middle .options {
+    height: 5rem;
+    display: flex;
+    margin-top: 10px;
+    background-color: azure;
+}
+.options p{
+    margin-inline: 22px;
+    margin-top: 1.5%;
+    padding: 6px;
+}
+.options p i,a{
+    font-size: 20px;
+    font-weight: normal;
+    color: grey;
+}
+.options p i{
+    padding-right: 8px;
+}
+hr{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.inspiration-tabs{
+    height: 300px;
+    padding: 30px;
+}
+.inspiration-tabs h2{
+    margin-bottom: 40px;
+}
+.inspiration-tabs .tabs{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs .Items{
+    height: 220px;
+    width: 160px;
+    text-align: center;
+}
+.tabs .images{
+    margin: 3px 0 7px 3px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.Items img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.brands{
+    height: 300px;
+    padding: 30px ;
+    background-color: azure;
+}
+.brands h2{
+    margin-bottom: 40px;
+}
+.brands .brand-tabs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.brand-tabs .Items{
+    height: 220px;
+    width: 160px;
+    text-align: center;
+}
+.brand-tabs .images{
+    margin: 3px 0 7px 3px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+h1{
+    height: 80px;
+    padding: 35px 0 0 35px;
+}
+.card-box{
+    height: 400px ;
+    max-width: 100%;
+    display: flex;
+    /*border: 1px solid black;*/
+    /*justify-items: normal;*/
+    /*align-items: center;*/
+    /*place-items: center;*/
+}
+.card{
+    height: 350px;
+    width: 450px;
+    /*text-align: center;*/
+    /*border: 1px solid black;*/
+    margin: 0 60px;
+    border-radius: 20px;
+}
+.card .img{
+    height: 15em;
+    /*border: 1px solid black;*/
+    border-radius: inherit;
+}
+.img img{
+    height: inherit;
+    width: 100%;
+    border-radius: inherit;
+}
+.card .textarea{
+    color: black;
+}
+.card h3,p{
+    padding: 7px 10px ;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+button{
+    height: 70px;
+    width: 1200px;
+    font-size: 22px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid gray;
+    margin: 11px 0 0 40px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(235,231,231);
+    padding: 44px;
+    margin: 44px 0 44px ;
+}
+
+.social-link i{
+    width: 30px;
+}
+.social-link:hover{
+    color: navy;
+}
